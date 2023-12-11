@@ -1,0 +1,39 @@
+
+/* Estilos para el formulario en general */
+.formulario {
+    /* background-color: #f9f9f9; */
+    padding: 20px;
+    border-radius: 10px;
+    /* box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.2); */
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    /* margin: 1% auto 0; */
+}
+
+.custom-form {
+    margin-top: 0.5%;
+    margin-bottom: 2%;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.custom-form label {
+    font-weight: bold;
+    color: rgb(177, 20, 220);
+}
+
+.custom-background {
+    border-radius: 10px;
+    background-image: url('../imagenes/fondo-contacto.jpg');
+    opacity: 0.5;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 66vh;
+    max-width: 100%;
+    padding: 0;
+    /* Elimina el relleno predeterminado */
+}

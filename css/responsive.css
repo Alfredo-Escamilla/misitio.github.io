@@ -1,0 +1,94 @@
+@media(max-width: 1024px){
+    .zona-1 {
+       height: 2820px;
+    }
+
+.formulario {
+    max-width: 100%;
+    max-height: 50%;
+    
+}
+
+.celda {
+    color: #b60c0c;
+    
+}
+
+}
+
+@media(max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 572px) {
+        
+    .footer-col {
+        width: 100%;
+    }
+
+    .celda:nth-child(6) {
+        max-width: 90%;
+    }
+
+    .zona-1 {
+        
+        height: 4300px;
+    }.zona-1 {
+        display: block;
+        
+        padding: 10px;
+       
+    }
+
+   
+    .celda {
+        width: 100%;
+       
+        margin-bottom: 20px;
+       
+    }
+
+    .celda:nth-child(1),
+    .celda:nth-child(5) {
+        font-size: 20px;
+        
+    }
+
+    .celda:nth-child(2) {
+        grid-column: 1 / span 3;
+       
+    }
+
+    .celda:nth-child(3) {
+        grid-column: 1 / span 3;
+        
+    }
+
+    .celda:nth-child(4) {
+        grid-column: 1 / span 3;
+       
+    }
+
+    .celda:nth-child(6),
+    .celda:nth-child(7),
+    .celda:nth-child(8) {
+        grid-column: 1;
+        
+    }
+}
+
+
+@media (max-width: 572px) {
+    .formulario {
+        padding: 10px;
+
+        margin: 0;
+
+    }
+}
+
+
+
